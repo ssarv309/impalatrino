@@ -236,7 +236,7 @@ def change(sql_code):
                 continue
 
 
-            if m1.lower() == "adddate":
+            if m1.lower() == "add_date":
                 match = re.match(r"(.*),(.*)", m2)
                 if match:
                     arg1 = match.group(1).strip()
